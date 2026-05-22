@@ -4,31 +4,50 @@
 %% FONTS (XeLaTeX)
 
 \usepackage{fontspec}
-\setmainfont{LibertinusSerif-Regular}[
+% Computer Modern Unicode — the XeLaTeX equivalent of the template's default
+% Computer Modern, with full Greek + Latin coverage.
+\setmainfont{cmunrm}[
   Extension=.otf,
-  BoldFont=LibertinusSerif-Bold,
-  ItalicFont=LibertinusSerif-Italic,
-  BoldItalicFont=LibertinusSerif-BoldItalic
+  BoldFont=cmunbx,
+  ItalicFont=cmunti,
+  BoldItalicFont=cmunbi
 ]
-\setsansfont{LibertinusSans-Regular}[
+\setsansfont{cmunss}[
   Extension=.otf,
-  BoldFont=LibertinusSans-Bold,
-  ItalicFont=LibertinusSans-Italic
+  BoldFont=cmunsx,
+  ItalicFont=cmunsi
 ]
-\setmonofont{FreeMono}[
-  ItalicFont=FreeMonoOblique,
-  BoldFont=FreeMonoBold,
-  BoldItalicFont=FreeMonoBoldOblique
+\setmonofont{cmuntt}[
+  Extension=.otf,
+  BoldFont=cmuntb,
+  ItalicFont=cmunst
 ]
 
 \usepackage{polyglossia}
 \setdefaultlanguage{greek}
 \setotherlanguage{english}
 
-% Greek-capable monospace fallback: FreeMono has no Greek glyphs, so
-% polyglossia needs a Greek tt font for the rare Greek-inside-\texttt case
-% (code content itself is Latin and still renders in FreeMono).
-\newfontfamily\greekfonttt[Script=Greek]{FreeSans}
+% CMU Typewriter covers Greek too, so Greek inside \texttt stays consistent.
+\newfontfamily\greekfonttt[Script=Greek]{cmuntt}[Extension=.otf]
+
+% CMU lacks a few Unicode glyphs used directly in the text (subscript digits
+% and some math relations); render them via real subscripts / math mode.
+\usepackage{newunicodechar}
+\newunicodechar{₀}{\textsubscript{0}}
+\newunicodechar{₁}{\textsubscript{1}}
+\newunicodechar{₂}{\textsubscript{2}}
+\newunicodechar{₃}{\textsubscript{3}}
+\newunicodechar{₄}{\textsubscript{4}}
+\newunicodechar{₅}{\textsubscript{5}}
+\newunicodechar{₆}{\textsubscript{6}}
+\newunicodechar{₇}{\textsubscript{7}}
+\newunicodechar{₈}{\textsubscript{8}}
+\newunicodechar{₉}{\textsubscript{9}}
+\newunicodechar{ₓ}{\textsubscript{x}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{≠}{\ensuremath{\neq}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% PACKAGES
@@ -102,9 +121,9 @@
 % 1.5 line spacing
 \renewcommand{\baselinestretch}{1.2}
 
-% Paragraph spacing — no indent, half-line gap between paragraphs
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{0.5\baselineskip}
+% Paragraph style (template default) — indented first line, including the
+% first paragraph after a heading; standard book inter-paragraph spacing.
+\usepackage{indentfirst}
 
 % typeset short english phrases
 \newcommand{\en}[1]{\textenglish{#1}}
