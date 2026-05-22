@@ -1,0 +1,599 @@
+# PROPER / product names (keep, add Greek gloss on first use) — 597 distinct
+# count	first_line	term
+83	74	Maersk
+43	94	Scope
+42	112	Energy Bank
+21	116	Dremio
+21	780	Elixir
+20	636	Shiptech
+19	80	Emissions Workbench
+17	92	Kafka
+17	110	STAR Connect
+16	90	Bunker Optimization
+16	90	Ocean Emissions
+15	116	Terraform
+14	98	ECOv2
+13	98	ECOv1
+13	116	Nix
+12	311	GHG Protocol Scope
+11	1339	Azure
+11	90	ET Platform
+11	92	Oban
+10	90	ECO Product Delivery
+10	1536	Ecto
+10	76	EU ETS Maritime
+10	311	Standard
+9	118	Clean Architecture
+9	98	ECO Delivery
+9	124	SBTi
+9	199	Well-to-Wake
+8	233	Excel
+8	94	GHG Protocol
+7	92	Commanded
+7	493	ECO products
+7	82	Extreme Programming
+7	1610	Kubernetes
+7	90	Net Zero
+7	311	World Resources Institute
+6	1059	Azure Blob Storage
+6	441	ECO Delivery Ocean
+6	114	Erlang Ports
+6	289	GIA audit
+6	1215	MBC solver
+6	467	Smart Freight Centre
+6	303	Tank-to-Wake
+5	116	Apache Kafka
+5	114	C++ solver
+5	957	Command
+5	941	ECO product
+5	1437	Erlang
+5	951	Event Sourcing
+5	311	GHG Protocol Corporate Standard
+5	337	Guidance
+5	673	IMO number
+5	426	ISCC System Document ISCC-203
+5	1653	Maersk Design System
+5	597	Oban workers
+4	266	Account Managers
+4	2513	Beck
+4	213	Carbon Disclosure Project
+4	579	Continuous Delivery
+4	265	Contract Management
+4	607	Customer Baseline Emissions
+4	231	Emissions Reporting
+4	1705	Events
+4	510	Geneva
+4	321	GLEC Framework
+4	1663	Phoenix
+4	1439	Phoenix Framework
+4	461	SBTi Corporate Manual
+4	2115	Scrum
+4	1253	Server
+4	1649	Vault
+4	513	Version
+3	311	Accounting and Reporting Standard
+3	957	Aggregate
+3	1601	Azure Kubernetes Service
+3	1441	BEAM processes
+3	1204	Bunker on Water Workbench
+3	953	Command Query Responsibility Segregation
+3	1705	Commands
+3	263	Commercial Sustainability
+3	1647	Continuous Integration
+3	311	Corporate Value Chain
+3	261	ECO Delivery Ocean Products
+3	164	ECO Products
+3	642	Ecto schema
+3	543	Energy Markets
+3	2233	Farley
+3	577	Forty-Foot Equivalent
+3	1667	Hedwig
+3	2233	Humble
+3	2491	International Maritime Organization
+3	453	International Sustainability and Carbon Certification
+3	514	London
+3	1188	MARPOL Annex VI
+3	1935	Projections
+3	1663	Prometheus
+3	891	Proof of Sustainability
+3	2348	PRs
+3	264	Regional Sales
+3	459	Science Based Targets initiative
+3	1540	SQL queries
+3	1614	Stargate
+3	148	Very Low Sulfur Fuel Oil
+3	2471	Washington
+3	311	World Business Council for Sustainable Development
+2	505	A Corporate Accounting and Reporting Standard
+2	264	Ad hoc
+2	1479	Admin
+2	1935	Aggregates
+2	1614	Akamai
+2	1620	AKS cluster
+2	513	Amsterdam
+2	2515	Andres
+2	1614	API gateway Maersk
+2	1687	API keys
+2	2511	Armstrong
+2	1606	Azure Active Directory
+2	416	Book-and-Claim
+2	511	Brussels
+2	1196	Bunker Optimization Planning System
+2	2147	By Example
+2	508	Cambridge University Press
+2	2061	CI pipeline
+2	508	Climate Change
+2	512	Cologne
+2	76	Corporate Sustainability Reporting Directive
+2	1129	Cost of Abatement
+2	1882	Director
+2	509	Doha Amendment to the Kyoto Protocol
+2	1787	Domain-Driven Design
+2	1479	Eco Delivery
+2	1717	Elixir monorepo
+2	1479	Emissions Data Inventory
+2	80	Energy Transition
+2	818	EU ETS surcharge
+2	511	European Committee for Standardization
+2	2517	Evans
+2	957	Event
+2	1931	Event sourcing
+2	2094	Extreme Programming Explained
+2	1757	Gateways
+2	337	GHGP Scope
+2	513	Global Logistics Emissions Council Framework for Logistics Emissions Accounting and Reporting
+2	315	Global Warming Potential
+2	1663	Grafana
+2	1661	Grafana Loki
+2	307	Greenhouse Gas Protocol
+2	510	Greenhouse gases
+2	282	Group Internal Audit
+2	733	High Sulfur Fuel Oil
+2	1665	HTTP requests
+2	510	International Organization for Standardization
+2	166	ISCC Plus
+2	2521	Juri
+2	1997	Kafka consumers
+2	1443	Kafka events
+2	2001	Kafka messages
+2	2094	Kent Beck
+2	2046	Kubernetes pods
+2	72	Logistics
+2	1661	Logs
+2	733	Low Sulfur Distillate
+2	203	Marine Environment Protection Committee
+2	148	Marine Gas Oil
+2	2523	Martin
+2	416	Mass Balance
+2	511	Methodology for calculation and declaration of energy consumption and GHG emissions of transport services
+2	1663	Metrics
+2	1594	Microsoft Azure
+2	2248	Microsoft Teams
+2	1206	Multi-Bundle Connector
+2	1247	NIFs
+2	1076	Oban worker
+2	1995	Observability
+2	136	Ocean
+2	1331	Open Database Connectivity
+2	542	Optimising Net Zero
+2	1441	OS threads
+2	2108	Pair Programming
+2	510	Part
+2	778	Pipeline
+2	80	Platform
+2	2348	PR review
+2	1481	React
+2	1925	Recovery Time Objective
+2	262	Regional Product Management
+2	1237	Remaining Fuel on Board
+2	1477	Ruby on Rails
+2	463	SBTi Maritime Guidance
+2	325	Scopes
+2	72	Services
+2	1584	SQL interface
+2	1329	SQL Server
+2	1715	Telemetry
+2	1055	Template
+2	72	Terminals
+2	2147	Test-Driven Development
+2	2525	Thomas
+2	72	Towage
+2	1665	Traces
+2	2131	Tuple
+2	733	Ultra Low Sulfur Fuel Oil
+2	2527	Vernon
+2	1481	Vue
+2	1655	Web Components
+2	400	Well-to-Tank
+2	2529	Young
+1	2523	A Craftsman's Guide to Software Structure and Design
+1	2161	Acceptance tests
+1	2305	Acceptance Tests
+1	506	Accounting Guidance
+1	366	Activity-based
+1	1905	AD groups
+1	1540	Adapter
+1	2250	Affected Workspace
+1	2090	Agile
+1	2046	Akamai CDN
+1	2022	Alert rule
+1	1667	Alerts
+1	166	American Bureau of Shipping
+1	2473	An amendment to the GHG Protocol Corporate Standard
+1	2445	Analytics
+1	1622	Ansible
+1	2533	Apache Kafka Documentation
+1	2533	Apache Software Foundation
+1	2461	API endpoint
+1	134	Arnold Peter Møller
+1	1586	Arrow Flight
+1	860	Audit trail
+1	1903	Authentication
+1	1903	Authorization
+1	1907	Azure AD
+1	1605	Azure API Management
+1	1925	Azure Data Protection
+1	1603	Azure Key Vault
+1	2046	Azure Kubernetes Service ingress controller
+1	1604	Azure Logic Apps
+1	1759	Azure SDKs
+1	854	Backend
+1	1825	BEAM mailbox
+1	1479	BEAM process
+1	1377	BOPS staging
+1	2324	Buddy System
+1	543	Bunker
+1	1241	C++ Solver
+1	2245	Cache
+1	508	Cambridge
+1	2559	Carbon Accounting Scopes
+1	209	Carbon Intensity Indicator
+1	479	CDP Climate
+1	2535	CDP Climate Change Questionnaire
+1	597	Certificates
+1	1030	Chain of Custody
+1	1540	Changeset
+1	1929	Changesets
+1	2244	Checkov
+1	1651	CI run
+1	2069	CI runner
+1	1015	Clearing Accounts
+1	2549	Cloud Native Computing Foundation
+1	2405	Cloud vs self-hosting
+1	2168	Code
+1	2342	Code Review
+1	2113	Coding Standards
+1	2417	Cold Ironing
+1	2109	Collective Ownership
+1	2537	Commanded Library Authors
+1	2096	Communication
+1	2301	Compiler
+1	1789	Component
+1	1785	Components
+1	2328	Confluence
+1	1647	Continuous Deployment
+1	1793	Coordinator
+1	2541	Copenhagen
+1	311	Corporate Accounting and Reporting Standard
+1	358	Cost-based
+1	2096	Courage
+1	2529	CQRS Documents
+1	2559	Creative Commons CC BY
+1	2561	Creative Commons CC BY-SA
+1	1711	Credo
+1	245	CSRD auditor
+1	2225	CSS selectors
+1	1645	Custom Runner
+1	2303	Daily Standup
+1	138	Damco
+1	2539	Dashbit
+1	1805	Data ingestion pipeline
+1	2246	Database
+1	2262	DBA team
+1	2042	Deployment topology
+1	1011	Deposits
+1	1713	Dialyxir
+1	1713	Dialyzer
+1	2063	Disaster recovery
+1	1614	Docker container
+1	1641	Docker container image
+1	2553	Documentation
+1	313	Doha
+1	2561	Don Wells
+1	625	Dremio Data Lake
+1	1811	Dremio data lake
+1	1813	Dremio queries
+1	1125	ECO Delivery Surcharges
+1	1888	ECO product allocations
+1	1795	ECO product logic
+1	1907	ECO Sales
+1	907	ECO savings
+1	441	Eco-delivery
+1	895	ECOv1 vs ECOv2
+1	2539	Ecto Documentation
+1	1715	Ecto query
+1	1919	Ecto Repo
+1	1763	Ecto repos
+1	1763	Ecto schemas
+1	360	EEIO factor
+1		Elixir   library pattern
+1	2521	Elixir in Action
+1	569	Elixir interfaces
+1	1479	Elixir module
+1	1614	Elixir release
+1	1223	Elixir service
+1	1540	Elixir struct
+1	2515	Embrace Change
+1	812	Emissions Trading System
+1	2339	End-to-end
+1	2032	Energy Bank Projector
+1	2029	Enrichment Worker
+1	559	Ensure Maersk and our suppliers reach Net Zero
+1	526	Ensure Maersk realises our Net Zero
+1	1753	Entities
+1	213	Environmental
+1	481	Environmental Management System
+1	360	Environmentally Extended Input-Output
+1	1439	Ericsson
+1	1823	Erlang client
+1	1331	Erlang ODBC adapter
+1	1813	Erlang OTP
+1	1580	Erlang-native Kafka client
+1	263	ESG reporting
+1	839	ETS charges
+1	839	ETS-related
+1	1669	ETW requests
+1	184	EU Allowances
+1	182	EU Emissions Trading System
+1	808	EU ETS Surcharges
+1	1425	EU ETS surcharges
+1	812	EUAs
+1	178	European Sustainability Reporting Standards
+1	812	European Union Allowances
+1	1578	Event streaming
+1	291	Excel-based workflow
+1	2022	External Trade Workbench
+1	1584	Extract-Transform-Load
+1	2561	Extreme Programming Feedback Loops
+1	2096	Feedback
+1	2285	Feedback Loops
+1	1029	Feedstock
+1	2491	Fourth IMO Greenhouse Gas Study
+1	1763	Gateway layer
+1	1763	Gateway modules
+1	2399	GHG accounting
+1	192	GHG intensity
+1	1691	Git repository
+1	494	GLEC Framework v3
+1	469	GLEC v3
+1	213	Global ESG Benchmark for Real Assets
+1	465	Global Logistics Emissions Council
+1	1443	Go
+1	213	Governance
+1	2000	Grafana dashboards
+1	2150	Green
+1	438	Guarantees of Origin
+1	138	Hamburg Süd
+1	148	Heavy Fuel Oil
+1	313	HFCs
+1	733	High Sulfur Distillate
+1	1628	Home Manager
+1	2111	Hour Week
+1	1655	HTML elements
+1	1721	HTML templates
+1	1757	HTTP controllers
+1	1068	HTTP endpoint
+1	1715	HTTP request
+1	1477	HTTP request handling
+1	1893	Humble Object pattern
+1	380	Hybrid
+1	223	IMO Net Zero
+1	2495	IMO Strategy on Reduction of GHG Emissions from Ships
+1	2527	Implementing Domain-Driven Design
+1	2250	Incremental Builds
+1	2247	Infrastructure
+1	1620	Infrastructure as Code
+1	2244	Infrastructure as Code scanning
+1	2028	Ingestion Worker
+1	2160	Integration tests
+1	2479	Intergovernmental Panel on Climate Change
+1	2307	Iteration Planning
+1	2328	Jira
+1	1827	Job processing
+1	1253	Jobs Scheduler
+1	1439	José Valim
+1	1899	JSON payloads
+1	1719	Jupyter
+1	1825	JVM-based systems
+1	1612	K8s
+1	1759	Kafka clients
+1	737	Kafka consumer
+1	2317	Knowledge Sharing
+1	2335	Knowledge Transfer
+1	2333	KT Sessions
+1	2331	Kubernetes cluster
+1	2266	Kubernetes clusters
+1	2075	Kubernetes deploy
+1	1661	Kubernetes-native log shipper
+1	162	Laura Mærsk
+1	138	LF Logistics
+1	1719	Livebook
+1	166	Lloyd's Register
+1	1604	Logic Apps
+1	1198	Maersk Energy Markets
+1	1815	Maersk enterprise data ecosystem
+1	2147	Make it work
+1	2485	Maritime Transport Sector Decarbonization Approach
+1	1895	MDS components
+1	2104	Metaphor
+1	2535	Methodology
+1	1590	Microsoft SQL Server
+1	1667	Microsoft Teams channels
+1	2382	Migrations
+1	2328	Miro
+1	1799	Mix project files
+1	1769	Mix umbrella applications
+1	2340	Monitoring
+1	1767	Monorepo
+1	2505	MRV Maritime
+1	1247	Native Implemented Functions
+1	1687	Nix binary cache
+1	1643	Nix flake
+1	1626	Nix Flakes
+1	2545	Nix Flakes Documentation
+1	2545	Nix Reference Manual
+1	2245	Nix store cache
+1	1616	Nix-based wrapper
+1	176	Non-Financial Reporting Directive
+1	2248	Notifications
+1	1198	NRG monorepo
+1	2051	Nrg Worker processes
+1	2051	Oban jobs
+1	1663	Oban queue depth
+1	2038	Oban telemetry events
+1	1929	Object-Relational Mapper
+1	1657	Observability stack
+1	1921	Ocean emissions
+1	1577	Ocean emissions ingestion
+1	1813	ODBC adapter
+1	2112	On-site Customer
+1	2317	Onboarding
+1	565	Optimize vessel bunker plans to ensure the lowest possible bunker spend is realized to execute our expected vessel schedules
+1	2299	Pair
+1	2342	Pairing
+1	1584	Parquet
+1	1915	Persistence layer
+1	134	Peter Mærsk Møller
+1	313	PFCs
+1	1763	Phoenix conventions
+1	1763	Phoenix framework
+1	2551	Phoenix Framework Authors
+1	2551	Phoenix Framework Documentation
+1	1895	Phoenix HEEx templates
+1	1895	Phoenix integration
+1	1997	Phoenix request lifecycle
+1	1663	Phoenix web server latency
+1	1777	Placeholder components
+1	1383	Plan Run
+1	2102	Planning Game
+1	1477	Plug
+1	2071	Point-In-Time Recovery
+1	1809	Polling sources
+1	1206	Port
+1	241	Port of Rotterdam
+1	1011	Port of Supply
+1	1793	Port-based IPC
+1	1247	Ports
+1	2352	PR approval
+1	2358	PR discussions
+1	2244	Prisma Cloud SAST
+1	1909	Privileged Identity Management
+1	2117	Product Owner
+1	2340	Production Deployment
+1	2305	Production Telemetry
+1	2525	Programming Elixir
+1	2511	Programming Erlang
+1	957	Projection
+1	1663	Prometheus exposition format
+1	2038	Prometheus metrics
+1	2162	Property-based tests
+1	553	Provide integrated technology services to enable rapid
+1	2346	Pull Requests
+1	1622	Pulumi
+1	1719	Python
+1	1540	Query
+1	687	Real-time
+1	2076	Recovery Point Objective
+1	438	RECs
+1	2149	Red
+1	2145	Red-Green-Refactor
+1	1697	Redis
+1	2151	Refactor
+1	2107	Refactoring
+1	2493	Regulations for the Prevention of Air Pollution from Ships
+1	2519	Reliable Software Releases through Build
+1	691	Remaining Fuel On Board
+1	438	Renewable Energy Certificates
+1	512	Requirements for the Supply Chain
+1	2481	Requirements for Traceability
+1	2096	Respect
+1	2471	Revised Edition
+1	2547	Robust job processing in Elixir
+1	2254	Rollback
+1	2055	Rolling deployments
+1	241	Rotterdam
+1	1477	Router
+1	2485	SBTi Corporate Net-Zero Standard Criteria
+1	1907	SBTi Developers
+1	459	SBTi Maritime
+1	2443	SBTi Reporting
+1	463	SBTi-aligned
+1	1540	Schema
+1	2117	Scrum Master
+1	1188	SECA zones
+1	2244	Security
+1	2529	Self-published whitepaper
+1	2338	Shipping Basics
+1	1697	Sidekiq
+1	2105	Simple Design
+1	2096	Simplicity
+1	1899	Single Page Application
+1	1479	Single-Page Application
+1	2103	Small Releases
+1	213	Social
+1	2511	Software for a Concurrent World
+1	2547	Sorentwo
+1	1481	SPA frameworks
+1	510	Specification with guidance at the organization level
+1	2483	Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals
+1	1333	SQL Server transaction
+1	2262	SRE team
+1	1819	STAR Connect feeds
+1	2423	STAR Connect pipeline
+1	2309	Strategic Alignment
+1	1817	Streaming
+1	547	Support transported
+1	2541	Sustainability Report
+1	439	Sustainable Aviation Fuel
+1	2481	System Document
+1	2281	T-shaped skills
+1	2517	Tackling Complexity in the Heart of Software
+1	2337	Team Intro
+1	2024	Teams
+1	2339	Technical Architecture
+1	2075	Terraform apply
+1	2555	Terraform Documentation
+1	2283	Terraform modules
+1	2519	Test
+1	2143	Test Driven Development
+1	2155	Test Pyramid
+1	2106	Testing
+1	2301	Tests
+1	2471	The Greenhouse Gas Protocol
+1	508	The Physical Science Basis
+1	2541	Towards Net Zero by
+1	743	Trade Factors
+1	2356	Trade-offs
+1	2229	Trunk-based Development
+1	136	Twenty-foot Equivalent Units
+1	1655	UI components
+1	1901	UI elements
+1	1991	UI flows
+1	461	UN Global Compact
+1	2159	Unit tests
+1	2487	United Nations Framework Convention on Climate Change
+1	1755	Use Cases
+1	1029	Used Cooking Oil
+1	589	User Interface
+1	2258	Vertical Ownership
+1	2399	Vertical ownership
+1	1148	Very Low Sulphur Fuel Oil
+1	671	Vessel Master Data
+1	1794	Vessel master data
+1	2030	Vessel Voyage data
+1	1757	Web adapters
+1	1884	Web layer
+1	1792	Web UI
+1	1013	Withdrawals
+1	2239	Workflow
+1	1717	Workspace

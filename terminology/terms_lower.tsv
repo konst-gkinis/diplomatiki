@@ -1,0 +1,747 @@
+# TRANSLATABLE common nouns/phrases — 745 distinct
+# count	first_line	term
+20	118	components
+15	245	audit trail
+15	315	e
+15	94	mass balance
+14	1190	solver
+13	82	event sourcing
+13	737	module
+12	94	book-and-claim
+12	96	pair programming
+11	118	monorepo
+11	2094	pairing
+11	94	trade factors
+10	673	component
+10	231	email
+10	710	events
+9	1608	production
+7	118	pipeline
+7	1233	plan run
+7	1614	pods
+7	1755	use cases
+6	1647	build
+6	1620	code review
+6	858	pattern
+6	675	server
+6	96	vertical ownership
+5	693	bunker plans
+5	549	data lake
+5	862	event
+5	1271	logs
+5	1614	pod
+5	955	projections
+5	1354	staging
+5	118	web layer
+5	1121	worker
+4	1685	agenix
+4	845	backend
+4	710	backpressure
+4	1538	backups
+4	1592	cognitive load
+4	1616	contexts
+4	1616	credentials
+4	118	deployment
+4	1307	distributed tracing
+4	1019	domain
+4	82	event-driven
+4	638	legacy
+4	1659	metrics
+4	92	migrations
+4	1797	modules
+4	837	observability
+4	120	onboarding
+4	1612	replicas
+4	1897	sessions
+4	998	state
+4	579	trunk-based development
+4	607	vessel master data
+4	1121	workers
+3	110	baseline
+3	2421	cold ironing
+3	1779	commit
+3	710	consumers
+3	472	container
+3	72	container carriers
+3	593	container move
+3	96	continuous integration
+3	2057	deploy
+3	579	deployments
+3	2237	deploys
+3	2431	diesel
+3	858	domain logic
+3	341	downstream
+3	917	expression trees
+3	847	frontend
+3	1605	gateway
+3	138	logistics
+3	1801	namespace
+3	1573	partitions
+3	1223	plan runs
+3	1011	projection
+3	82	real-time
+3	532	refactoring
+3	645	schema
+3	1603	secrets
+3	384	shipment
+3	957	struct
+3	814	surcharge
+3	1647	test
+3	1651	tests
+3	74	th GHG Study
+3	1573	topics
+3	862	traceability
+3	1659	traces
+3	693	voyage
+3	82	web
+2	2170	acceptance tests
+2	382	activity-based
+2	1651	affected workspace detection
+2	955	aggregate
+2	847	aggregated queries
+2	1667	alert rules
+2	2003	alerting
+2	2026	alerts
+2	532	atomic
+2	291	audit
+2	1907	authorization
+2	1741	background processing
+2	1831	background workers
+2	2055	backward-compatible migrations
+2	957	behavior
+2	1755	behaviours
+2	1479	browser
+2	2326	buddy
+2	1691	build-time secrets
+2	1425	carbon-aware
+2	348	chartered vessels
+2	1937	clearing account
+2	1889	clearing accounts
+2	1765	code reviews
+2	2354	commit messages
+2	804	consistency
+2	710	consumer
+2	1763	controllers
+2	378	cost-based
+2	1663	dashboards
+2	243	data freshness
+2	284	data tracking
+2	1665	database queries
+2	1245	de facto
+2	528	definitive
+2	2129	distributed
+2	2368	downtime
+2	472	dry
+2	153	e-fuels
+2	921	emissions factors
+2	1415	enqueuer
+2	638	error handling
+2	1933	event replay
+2	1935	event stream
+2	595	export
+2	1689	fine-grained
+2	850	fossil baseline vs ECO actual
+2	891	gigajoules
+2	72	greenhouse gases
+2	1825	infrastructure
+2	1715	instrumentation
+2	72	integrated logistics provider
+2	1401	interval
+2	2346	merge
+2	697	message broker
+2	162	methanol-ready
+2	1479	namespaces
+2	1247	native
+2	2511	nd Edition
+2	1624	nix-darwin
+2	1087	offset
+2	1538	patches
+2	1121	pattern matching
+2	591	polling
+2	1628	project
+2	1711	pull request
+2	858	queries
+2	1569	query
+2	2433	rail
+2	1825	rate limiting
+2	955	read models
+2	472	reefer
+2	1573	replay
+2	1890	reports
+2	1626	reproducibility
+2	1612	rolling updates
+2	835	run ID
+2	1649	runner
+2	1691	runtime
+2	1689	runtime secrets
+2	249	scalability
+2	356	scope
+2	303	scopes
+2	1608	self-hosted
+2	239	self-service
+2	2421	shore power
+2	1249	stdio
+2	1333	stored procedures
+2	634	streaming
+2	1441	supervisor
+2	1329	system of record
+2	2421	terminals
+2	96	test-driven development
+2	1121	timestamp
+2	1649	token
+2	375	tonne-km
+2	1321	trace
+2	1538	transactions
+2	858	unit testing
+2	341	upstream
+2	1761	use case
+2	2139	user stories
+2	728	vessel
+2	1803	vessel data
+2	1612	web server
+2	943	withdrawal
+2	2051	worker pod
+2	1647	workflows
+2	1713	wrapper
+2	1927	zero-downtime deployments
+1	1586	abstraction layer
+1	1797	access modifiers
+1	599	accompanying report
+1	845	account managers
+1	547	achieve their own decarbonisation goals
+1	368	activity data
+1	272	ad hoc
+1	1719	ad-hoc
+1	1247	address space
+1	1697	advisory locks
+1	1717	affected components
+1	1779	affected workspace apps
+1	1691	age
+1	1661	agent
+1	866	aggregated
+1	2117	agile
+1	2437	air cargo
+1	2437	air freight
+1	1672	alert
+1	2003	alerts-as-code
+1	188	allowance
+1	124	analytics
+1	2519	and Deployment Automation
+1	1711	antipatterns
+1	1148	apples to apples
+1	1590	application
+1	1717	applications
+1	1815	architectural insulation
+1	1415	asynchronous task scheduling
+1	1993	atomic writes
+1	1333	atomically
+1	1695	attempts
+1	1689	audit logging
+1	265	audit-ready
+1	2409	audit-ready certificates
+1	2405	auto-scaling
+1	2080	automated backup tests
+1	2393	automated certificate generation
+1	886	b50
+1	1695	background job processor
+1	1922	backup policy
+1	1925	backup strategy
+1	1927	backward-compatible migrations only
+1	862	baseline emissions
+1	627	batch
+1	1807	batch processing
+1	1249	binary protocol
+1	162	biodiesel
+1	1921	blast radius
+1	886	blend
+1	2170	block
+1	1745	blueprint
+1	1763	boilerplate
+1	1811	bookmark
+1	2352	bottleneck
+1	2275	bottlenecks
+1	2061	branch
+1	1655	brand identity
+1	1897	broadcast
+1	2399	buddy system
+1	1307	buffer
+1	2139	bugs
+1	1781	build complexity
+1	2401	build time
+1	1691	build-time
+1	1643	builds
+1	710	bunker
+1	1237	bunker plan
+1	1011	bunkered green fuel
+1	1186	bunkering
+1	1335	business rules
+1	2034	business-critical
+1	1068	bytes
+1	1649	cached
+1	1913	cached state
+1	1443	callbacks
+1	1335	caller
+1	903	calorific value
+1	303	carbon accounting
+1	463	carbon budget
+1	804	case-insensitive
+1	986	cast
+1	2117	ceremonies
+1	2050	certificate downloads
+1	1901	certificate status badges
+1	555	certificates
+1	426	chain-of-custody
+1	1005	changeset pipeline
+1	1540	changesets
+1	831	charge
+1	434	claim
+1	569	claims
+1	858	clean architecture
+1	1899	client-server
+1	1899	client-state synchronization
+1	2262	cloud
+1	1596	cloud platform
+1	1665	cloud tracing
+1	2026	cluster unreachability
+1	2153	code path
+1	2283	coding standards
+1	2113	collective ownership
+1	998	command
+1	1019	command handlers
+1	1993	command paths
+1	1991	commands
+1	553	commercially viable scale-up of ECO products and thereby achieve
+1	1801	compiler
+1	1641	composability
+1	1540	composable DSL
+1	1922	compute
+1	847	concern code
+1	1626	configuration language
+1	2389	constraint
+1	1580	consumer groups
+1	1641	container image
+1	2040	container moves
+1	1612	container orchestration
+1	162	container ship
+1	138	container shipping company
+1	1601	containerized
+1	1612	containers
+1	755	context
+1	2076	continuous backups
+1	2407	continuous deployment
+1	2437	contracted carrier
+1	1068	controller
+1	806	converter
+1	1202	coordinator
+1	1775	coordinator service
+1	1803	copy-on-write
+1	2451	cost-effectiveness analysis
+1	2028	count
+1	1923	cross-context relationships
+1	737	current bunker plan
+1		custom   binary
+1	2038	custom business metrics
+1	1616	custom CLI
+1	1895	custom HTML elements
+1	1663	custom instrumentation
+1	1697	custom scheduling
+1	591	customer code
+1	2082	cutting-edge
+1	1888	dashboard
+1	1807	data ingestion
+1	1815	data lakes
+1	2339	data pipelines
+1	2405	data retention policies
+1	1803	data sovereignty per context
+1	856	data transfer object
+1	1815	data warehouses
+1	1687	database passwords
+1	2067	databases
+1	1813	datasets
+1	1121	day-based batch
+1	2451	decarbonization scenarios
+1	1907	declarative
+1	1578	decoupling
+1	471	default emission factors
+1	1763	default pattern
+1	2247	deployment observability stack
+1	943	deposit
+1	1705	deposits
+1	1783	developer
+1	1697	developers
+1	1783	development environment
+1	1628	development laptop
+1	1479	diff
+1	1899	diffs HTML
+1	1628	direnv
+1	675	distributed BEAM cluster
+1	1573	distributed log
+1	1923	domain boundaries
+1	1739	domain component
+1	1919	domain context
+1	1801	domain contexts
+1	1005	domain function
+1	1046	domain model
+1	1987	domain module
+1	1701	domain object
+1	780	domain objects
+1	1127	domain service
+1	1825	downstream consumer
+1	2125	driver
+1	1901	duplicated template logic
+1	1689	dynamic secrets
+1	162	e-methanol
+1	888	ecm
+1	884	eco1
+1	885	eco2
+1	887	eco4
+1	887	eco5
+1	889	ecx
+1	1005	embedded Ecto schema
+1	2423	emission factor
+1	1801	emissions calculation
+1	595	emissions saving data
+1	1901	emissions summary cards
+1	577	enabler
+1	138	end-to-end
+1	1321	end-to-end plan run
+1	555	energy tracking
+1	2135	ensemble programming
+1	1815	enterprise data platform
+1	856	entries
+1	565	environment
+1	317	equivalent
+1	287	error rates
+1	1991	event-sourced
+1	1991	eventual consistency
+1	1697	exactly-once semantics
+1	1473	exceptions
+1	675	explicit load balancer
+1	1923	explicit modeling
+1	1379	extension
+1	1815	external databases
+1	847	fact code
+1	2059	fails in production
+1	364	fallback
+1	1991	feature
+1	2231	feature branches
+1	1815	federated data layer
+1	1584	federated SQL query engine
+1	120	feedback loops
+1	348	financial control
+1	1620	firewall rule
+1	2267	firewall rules
+1	2431	first and last mile
+1	683	flag state
+1	2431	fleet management
+1	1923	foreign key constraints
+1	1753	frameworks
+1	2469	freight and passengers
+1	2034	freshness
+1	1821	fuel consumption readings
+1	547	fulfilled and managed by Maersk customers to comply with emissions regulations and
+1	1725	full-stack development
+1	1447	functional
+1	2040	gateways
+1	1477	generators
+1	1628	git config
+1	2358	git history
+1	2046	global routing
+1	1443	goroutines
+1	303	greenhouse gas emissions
+1	901	grey fuel
+1	2423	grid emission factor
+1	858	guides
+1	957	handler
+1	1626	hash
+1	1721	headless Chromium
+1	2078	health checks
+1	1907	helper macros
+1	1989	history
+1	1811	idempotent polling
+1	1821	idempotent processing
+1	1905	identity provider
+1	955	immutable
+1	2393	immutable audit trail
+1	1447	immutable data structures
+1	2080	immutable migrations
+1	1481	impedance mismatch
+1	2340	incident
+1	1121	incremental update
+1	2391	infrastructure as code
+1	2059	infrastructure-as-code
+1	1741	ingestion layer
+1	2267	ingress controllers
+1	739	input
+1	2368	interfaces
+1	2433	intermodal
+1	1907	internal
+1	1321	internals
+1	2183	it defaults to the latest year
+1	2069	it works on my machine
+1	1309	job
+1	847	join
+1	1569	join model
+1	1909	just-in-time
+1	1628	k8s binary
+1	907	kg CO
+1	852	lane
+1	1643	laptop
+1	1070	lazy generation pattern
+1	1592	legacy SQL Server
+1	1441	let it crash
+1	178	limited assurance
+1	1190	linear programming
+1	1711	linter
+1	406	liquefied natural gas
+1	1614	liveness probes
+1	2437	load factors
+1	337	location-based
+1	2069	locked
+1	1626	lockfile
+1	1249	log
+1	1661	log stream
+1	2437	logistics segments
+1	2231	long-lived branches
+1	2311	loop
+1	2311	loops
+1	1823	low-level Erlang libraries
+1	2147	make it fast
+1	2147	make it right
+1	845	managers ECO
+1	1897	manual refresh
+1	664	map
+1	337	market-based
+1	685	master data
+1	1823	mature
+1	2417	measurements
+1	2231	merge conflicts
+1	1441	message passing
+1	1825	message queue sizing
+1	2038	metadata
+1	406	methane slip
+1	725	methanol
+1	1803	microservices architectures
+1	1477	middleware
+1	2329	milestones
+1	2135	mob programming
+1	1655	modals
+1	1797	module path
+1	2038	named events
+1	1823	native Erlang process model
+1	1590	native ODBC adapter
+1	2125	navigator
+1	160	net zero
+1	1691	netrc
+1	2067	networking
+1	1614	nginx ingress controller
+1	1247	node
+1	2026	non-200 spike
+1	1231	non-bunkerable
+1	1719	notebook
+1	1417	observability dashboards
+1	116	observability stack
+1	1819	ocean emissions updates
+1	1821	offsets
+1	2036	on-call engineer
+1	348	operational control approach
+1	1608	operational overhead
+1	784	operator
+1	1227	operator workflow
+1	1580	ordering
+1	2119	overhead ceremonies
+1	1329	overlay
+1	683	ownership
+1	1626	package manager
+1	1628	packages
+1	1901	partial re-renders
+1	148	particulate matter
+1	710	partition
+1	1823	partition consumer
+1	1655	patterns
+1	1823	performance
+1	2040	performance bottlenecks
+1	1626	pins
+1	1447	pipelines
+1	1795	placeholder
+1	1229	plan
+1	1190	planning horizon
+1	1235	plans
+1	1689	policies
+1	1188	port call duration
+1	1429	pre-allocation
+1	1993	pre-computed read models
+1	575	pre-launch
+1	2449	predictive emissions
+1	1441	preemptive scheduler
+1	1321	prefixes
+1	1379	preload library
+1	164	premium
+1	858	presentation logic
+1	1691	private Nix binary cache
+1	2256	problematic commit
+1	675	process
+1	675	process group
+1	1825	producer
+1	1573	producers
+1	1649	production secrets
+1	96	production team
+1	2082	production-critical
+1	1036	projection schema
+1	585	proof-of-concept
+1	2001	propagation context
+1	2162	properties
+1	1622	provider
+1	1823	pure Elixir libraries
+1	2243	push
+1	1993	query paths
+1	1084	queue
+1	2135	rapid knowledge transfer
+1	780	raw
+1	2521	rd Edition
+1	1989	re-projection
+1	1534	re-render
+1	2435	reach stackers
+1	1701	read model
+1	1616	readiness checks
+1	1614	readiness probes
+1	1811	records
+1	2034	regulators
+1	1074	reissue
+1	1538	relational database
+1	2131	remote pair programming
+1	1701	replay events
+1	1783	repo
+1	856	report model
+1	1783	repository
+1	2401	reproducible
+1	2065	reproducible builds
+1	2024	requests
+1	1813	result set
+1	634	resultset
+1	2117	retrospective
+1	1697	retry logic
+1	2256	revert
+1	2117	review
+1	2309	roadmap
+1	1689	role ID
+1	2256	rollback
+1	593	route
+1	835	run
+1	823	run IDs
+1	1882	run-time
+1	1683	runbook
+1	2036	runbook URLs
+1	2078	runbooks
+1	1687	runtime credentials
+1	1052	savings
+1	2451	scenario engine
+1	2453	scenario versions
+1	1991	scenarios
+1	1441	scheduler
+1	2268	schema design
+1	1225	schemas
+1	461	science-based targets
+1	1663	scrapes
+1	1691	secret
+1	1689	secret ID
+1	1687	secrets management
+1	2061	security scan
+1	1247	segmentation fault
+1	2001	self-hosted instance
+1	1703	sequence number
+1	1886	server-rendered
+1	1487	session
+1	1913	session-level authorization state
+1	565	setting the foundation for optimizing green fuel sourcing in an emissions trading system
+1	1441	shared state
+1	593	shipment level
+1	72	shipping company
+1	1447	side effects
+1	1641	source code
+1	1655	spacing
+1	2405	spot instances
+1	2117	sprint planning
+1	2117	sprints
+1	1829	staging tables
+1	2034	stale ingestion worker
+1	2303	standup
+1	1899	state management
+1	1895	static assets
+1	251	status quo
+1	1922	storage
+1	2067	storage accounts
+1	1813	streaming cursor
+1	1586	streaming queries
+1	917	structs
+1	1999	structured querying
+1	1880	subscription
+1	1713	success typings
+1	1247	supervision tree
+1	1178	surcharges
+1	160	sustainable energy usage
+1	553	sustainable energy usage by
+1	526	targets by providing definitive emissions data and technology services that support customer decarbonization ambitions and drive ECO product adoption
+1	559	targets by providing the trusted emissions information and insights needed to realise the economic delivery of decarbonisation roadmaps across the business
+1	1435	technology stack
+1	2038	telemetry
+1	1413	telemetry event
+1	2038	telemetry events
+1	1064	template
+1	2443	templates
+1	2435	terminal equipment
+1	2164	test coverage
+1	2383	test files
+1	2061	test suites
+1	2193	they see a pleasant title
+1	547	through Maersk
+1	1825	throughput
+1	2275	ticket
+1	1021	time travel
+1	1813	time-sensitive streams
+1	1188	tonne
+1	394	tonne-nm
+1	710	topic
+1	821	trade lane
+1	2397	trade-offs
+1	2046	traffic
+1	1614	traffic flow
+1	1217	transactional
+1	2431	trucking
+1	2233	trunk
+1	1713	type analysis
+1	1713	type annotations
+1	733	type-safe
+1	1655	typography
+1	2031	unallocated emissions
+1	1893	use case modules
+1	2040	user request
+1	1891	user roles
+1	837	valid
+1	2337	value proposition
+1	1683	version control
+1	685	vessel record
+1	1186	vessel rotations
+1	1819	vessel telemetry
+1	1439	virtual machine
+1	2266	virtual machines
+1	1190	voyage rotation
+1	348	vs
+1	1687	vs build-time secrets
+1	1761	web controller
+1	1477	web framework
+1	1755	web frameworks
+1	1801	web interface
+1	1741	web server pod
+1	2050	web server replicas
+1	1774	web UI
+1	1705	withdrawals
+1	1891	worker configuration
+1	2071	workflow
+1	2059	works on staging
+1	1823	wrapper libraries
+1	1215	writeback
+1	2435	yard tractors
+1	748	year
+1	2431	zero tailpipe
+1	1616	zero-downtime deployment

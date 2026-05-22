@@ -1,0 +1,152 @@
+# CODE identifiers (keep as code) — 150 distinct
+# count	first_line	term
+17	114	BoW
+17	1339	PostgreSQL
+10	76	FuelEU Maritime
+10	92	Phoenix LiveView
+8	1779	CI/CD
+8	957	EventStore
+8	685	RoB
+7	675	GenServer
+6	1603	HashiCorp Vault
+6	858	LiveView
+5	2513	Addison-Wesley Professional. ISBN
+5	1307	OpenTelemetry
+4	959	CommandHandler
+4	1645	GitHub Actions
+4	1443	WebSocket
+3	2541	A.P. Møller-Mærsk
+3	92	BEAM/Elixir
+3	116	Commanded/EventStore
+3	1217	emissions_workbench
+3	375	gCO
+3	467	GLEC Framework v3.0
+3	1479	LiveView modules
+3	1665	OpenObserve
+3	1663	PromEx
+2	72	A.P. Møller-Mærsk A/S
+2	1649	AppRole auth
+2	1538	Azure Database for PostgreSQL Flexible Server
+2	1251	BopsApi.Server
+2	261	ECOv1/ECOv2
+2	1225	ETA/ETD
+2	1689	GitHub Actions workflow
+2	1620	HashiCorp
+2	2262	InfoSec team
+2	112	ISCC/POS
+2	360	kgCO
+2	1661	LogQL
+2	1443	Node.js
+2	1540	PostgreSQL driver
+2	1377	PostgreSQL Flexible Server
+2	2511	Pragmatic Bookshelf. ISBN
+2	1661	PromQL
+2	693	RoB_
+2	1665	v0.14.4
+2	505	WRI/WBCSD
+1	1757	Adapters/Gateways
+1	1911	AppRole authentication
+1	2405	Azure Database for PostgreSQL
+1	854	BaselineEmissionsReport
+1	1249	BEAM GenServer
+1	1211	BoW UI
+1	2243	Build/Test
+1	1223	bunker/bow
+1	1721	ChromicPDF
+1	1911	CI/CD pipelines
+1	1886	client-side JavaScript framework
+1	1048	concern_code
+1	806	consignee_attrs
+1	640	ContainerMove
+1	120	continuous integration/delivery
+1	1477	Controller/LiveView
+1	2026	CrashLoopBackOff
+1	866	CSRD/CDP
+1	1649	Custom NixOS Runner
+1	2241	custom NixOS runner
+1	806	customer_attrs
+1	2046	DDoS
+1	374	e/
+1	375	e/tonne-km
+1	1178	ECOv1/v2
+1	1929	Ecto.Query DSL
+1	753	EmissionsCalculator
+1	1590	Erlang/OTP
+1	1935	EventStore backend
+1	1050	ffe_moves
+1	1413	find_migrated
+1	1759	Frameworks/Drivers
+1	1827	GenServer Director
+1	481	GHGP/ISO
+1	1649	GitHub Actions runner
+1	2057	GitHub Actions workflows
+1	1689	GitHub Secrets
+1	2391	GitHub workflows
+1	1620	HashiCorp Configuration Language
+1	2050	HTTP/WebSocket traffic
+1	1620	IaC
+1	1647	IaC scan
+1	2481	ISCC System GmbH
+1	1053	iscc_reference
+1	1479	JavaScript
+1	1655	JavaScript framework
+1	1538	JSON/JSONB
+1	394	kWh
+1	1901	LiveComponent
+1	1901	LiveComponents
+1	2168	LiveView Acceptance Test
+1	1663	LiveView connections
+1	2551	LiveView Documentation
+1	2040	LiveView event handler
+1	1663	LiveView metrics
+1	2001	LiveView mount
+1	1907	LiveView mounts
+1	1534	LiveView process
+1	1913	LiveView request
+1	2161	LiveView session
+1	1897	LiveView sessions
+1	862	Loki/Grafana
+1	1628	macOS
+1	2521	Manning Publications. ISBN
+1	2495	MEPC.377
+1	116	Microsoft Azure/Kubernetes
+1	2133	Mob/Ensemble Programming
+1	1893	mount/handle_event/render
+1	2401	Nix/Flake workspace
+1	1649	NixOS
+1	2545	NixOS Foundation
+1	671	ocean_api
+1	1321	OpenTelemetry spans
+1	2549	OpenTelemetry Specification
+1	1792	Phoenix LiveView app
+1	2050	Phoenix LiveView connections
+1	1897	Phoenix PubSub
+1	116	Phoenix/LiveView
+1	1715	Phoenix/Oban metrics
+1	1178	POS/ISCC
+1	2553	PostgreSQL Global Development Group
+1	116	PostgreSQL/Ecto
+1	2523	Prentice Hall. ISBN
+1	2038	PromEx library
+1	2523	R. C
+1	1993	read/write paths
+1	712	RemainingFuelOnBoard
+1	2495	Resolution MEPC.377
+1	1479	REST/GraphQL API
+1	1415	retry/error-handling
+1	505	Revised Edition. Washington DC
+1	1749	Robert C. Martin
+1	1649	standard GitHub-hosted runners
+1	2080	Terraform IaC
+1	2495	th session. London
+1	2479	The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report
+1	1051	total_emissions_wtw
+1	412	TTW/WTW
+1	2537	Use Commanded to build Elixir CQRS/ES applications
+1	837	valid/invalid
+1	987	validate_required
+1	1813	vessel RoB
+1	2053	web/worker
+1	1899	WebSocket connectivity
+1	751	WTW/TTW
+1	2561	XP-feedback.gif
