@@ -28,6 +28,8 @@ copyrightyear: "2026"
 abstract-gr: |
   Η παρούσα διπλωματική εργασία παρουσιάζει τον **Πάγκο Εργασίας Εκπομπών** (Emissions Workbench), μια πλατφόρμα λογισμικού παραγωγικής κλίμακας που σχεδίασε και υλοποίησε η ομάδα Energy Transition (ET) Platform της A.P. Møller-Mærsk A/S. Στόχος της πλατφόρμας είναι η μέτρηση, πιστοποίηση και βελτιστοποίηση των εκπομπών αερίων θερμοκηπίου (GHG) από θαλάσσιες μεταφορές, στο πλαίσιο του στόχου Net Zero 2040 της Maersk και των ρυθμιστικών υποχρεώσεων του κλάδου (CSRD, EU ETS Maritime, FuelEU Maritime).
 
+  Η πλατφόρμα βρίσκεται στην ιστοσελίδα https://emissions-workbench.maersk.com/ (μόνο για χρήστες με δικαίωμα πρόσβασης).
+
   Η εργασία αναλύει τέσσερις αλληλοσυμπληρούμενες διαστάσεις: το επιχειρησιακό και ρυθμιστικό πλαίσιο, το θεωρητικό υπόβαθρο λογιστικής εκπομπών (GHG Protocol, Scope 1/2/3, ISCC, GLEC), την τεχνική αρχιτεκτονική της πλατφόρμας και τη μεθοδολογία ανάπτυξης της ομάδας.
 
   Τεχνικά, το σύστημα βασίζεται στην πλατφόρμα BEAM/Elixir με Phoenix LiveView για διεπαφές πραγματικού χρόνου, Apache Kafka για επεξεργασία δεδομένων καθοδηγούμενη από συμβάντα, προέλευση από συμβάντα για αδιάσπαστη ιχνηλασιμότητα της λογιστικής πράσινου καυσίμου (Energy Bank), PostgreSQL/Ecto, Dremio για αναλυτικά δεδομένα και Microsoft Azure/Kubernetes για αναπτύξεις νέφους. Η ομάδα ανάπτυξης εφαρμόζει πρακτικές Extreme Programming: προγραμματισμό σε ζεύγη, ανάπτυξη καθοδηγούμενη από δοκιμές, συνεχή ενσωμάτωση/παράδοση και κάθετη ιδιοκτησία.
@@ -36,6 +38,8 @@ abstract-gr: |
 keywords-gr: "Εκπομπές αερίων θερμοκηπίου, CO₂, Ναυτιλία, Maersk, Elixir, BEAM, Phoenix LiveView, Event Sourcing, Extreme Programming, Net Zero"
 abstract-en: |
   This thesis presents the **Emissions Workbench**, a production-scale software platform designed and implemented by the Energy Transition (ET) Platform team at A.P. Møller-Mærsk A/S. The platform enables accurate measurement, certification, and optimization of greenhouse gas (GHG) emissions from maritime shipping operations, in support of Maersk's Net Zero 2040 commitment and the evolving regulatory landscape (CSRD, EU ETS Maritime, FuelEU Maritime).
+
+  The platform is available in the website: https://emissions-workbench.maersk.com/ (only accessible by authorized users).
 
   The thesis examines four complementary dimensions: the business and regulatory context; the theoretical framework for GHG accounting (GHG Protocol, Scope 1/2/3, ISCC, GLEC); the technical architecture of the platform; and the software development methodology of the team.
 
@@ -568,6 +572,8 @@ prologue: |
 Συνολικά, οι μετρικές αυτές τεκμηριώνουν ότι το *Emissions Workbench* πέρασε από απόδειξη αρχής (*proof-of-concept*) σε πλατφόρμα παραγωγής με εμπορικά μετρήσιμη αξία σε διάρκεια μόνο μερικών μηνών — ένα επίτευγμα που αποδίδεται εξίσου στις αρχιτεκτονικές επιλογές (Κεφ. 9) και στις πρακτικές ανάπτυξης λογισμικού (Κεφ. 10).
 
 ## 4.4 Επισκόπηση χαρακτηριστικών διεπαφής χρήστη
+
+Η διεπαφή χρήστη γίνεται μέσω της ιστοσελίδας https://emissions-workbench.maersk.com/. Η πρόσβαση επιτρέπεται μόνο σε χρήστες με λογαριασμό στην εταιρεία και συγκεκριμένα δικαιώματα χρήσης.
 
 Η διεπαφή χρήστη (*User Interface, UI*) του *Emissions Workbench* σχεδιάστηκε με γνώμονα την αυτοεξυπηρέτηση (*self-service*): κάθε χρήστης να μπορεί να αναζητήσει, επαληθεύσει και εξάγει δεδομένα εκπομπών χωρίς να απαιτείται η μεσολάβηση εξειδικευμένης ομάδας αναφορών. Η λειτουργικότητα αυτή παρουσιάστηκε στην εσωτερική τεχνολογική συνάντηση ET Platform 2025 με πέντε βασικά χαρακτηριστικά επίδειξης, τα οποία αντανακλούν τον κύκλο ζωής ενός τυπικού αιτήματος πελάτη.
 
