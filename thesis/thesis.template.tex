@@ -60,7 +60,19 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{calc}
+\usepackage{xstring}
 \setlength{\emergencystretch}{6em}
+
+% Allow line breaks after dots inside inline code identifiers
+% (e.g. Nrg.Ocean.Certificates.GetCertificateDocument) so long
+% dotted names don't overflow the right margin.
+\let\origtexttt\texttt
+\renewcommand{\texttt}[1]{%
+  \begingroup
+  \StrSubstitute{#1}{.}{.\allowbreak}[\tttmp]%
+  \origtexttt{\tttmp}%
+  \endgroup
+}
 
 % Syntax highlighting (tango theme)
 \usepackage{color}
@@ -107,7 +119,22 @@
 
 % pandoc-generated commands
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\providecommand{\pandocbounded}[1]{#1}
+% Scale graphics down to fit the text block when they would otherwise
+% overflow horizontally or vertically. Pandoc 3.x emits \pandocbounded
+% around every image; we replace the no-op fallback with the canonical
+% scaling definition.
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{%
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\edef\@tempa{\@tempb}\fi
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox\pandoc@box%
+  \fi%
+}
+\makeatother
 \usepackage{etoolbox}
 \patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
 
