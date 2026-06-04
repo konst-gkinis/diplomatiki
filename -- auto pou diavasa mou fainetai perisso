@@ -1,0 +1,59 @@
+Χρησιμοποίησα το σωστό TeX template και θέματα layout / γραμματοσειράς / γραφικών λύθηκαν.
+
+-- auto pou diavasa mou fainetai perissotero san keimeno technical report / deliverable sto plaisio kapoiou project para san keimeno diplwmatikhs ergasias me arxh mesh kai telos
+
+Ισχύει αυτό, ο στόχος μου ήταν κυρίως να κάνω μια πλήρη ανάλυση του συστήματος, σαν να το παρουσίαζα σε κάποιο συνέδριο (αλλά πιο αναλυτικά).
+
+-- ston titlo anaferetai "platforma logismikou" alla den mporesa na vrw sto keimeno oute url oute screenshots apo to platform oute endeiktika senaria xrhshs
+
+Πρόσθεσα το URL, αλλά είναι πίσω από login screen δυστυχώς. Για τα screenshots, μπορώ να βάλω, αλλά δεν είμαι σίγουρος αν είναι καλή ιδέα. Επειδή είναι copyrighted τα διάφορα γραφικά/design και δεν έχω τη συγκατάθεση της εταιρείας ούτε του τμήματος που τα έφτιαξε (χρησιμοποιούμε το UI design της εταιρείας και δεν το σχεδίασε κάποιος στην ομάδα μας ώστε να έχουμε πιο πολλή "εξουσία"). Θα ρωτήσω, αλλά δεν είμαι πολύ αισιόδοξος.
+
+-- se polla shmeia sto keimeno uparxoun anakatemena ellhnika kai agglika me sunepeia to keimeno tna ginetai hard-to follow
+
+Ισχύει, αυτό ήταν το πιο δύσκολο, να βρω πως να μεταφράσω τους όρους στα ελληνικά. Έχω κάνει επιπλέον διορθώσεις στη νέα έκδοση.
+
+-- uparxei terminology pou xrhsimopoieitai XWRIS na exei oristei...
+
+Ισχύει, νομίζω τα πρόσθεσα όλα.
+
+-- den mou einai safes ti apo ola auta pou anaferontai sto keimeno  ekanes ESU sto plaisio ths diplwmatikhs sou ergasias
+
+Το μόνο που δεν έκανα ήταν το κομμάτι του  βελτιστοποιητή  διαδρομής ανεφοδιασμού - bunking route optimizer (C++) και της επικοινωνίας μ' αυτόν. Επειδή ήμουν από την 1η μέρα σ' αυτή την ομάδα, έστησα όλο το CI/CD, authorization, authentication, το infrastructure στο cloud, και πολλά άλλα. Επίσης προσπαθούσαμε ενεργά να μην αφήνουμε κόσμο σε ένα τμήμα του κώδικα, αλλά να ασχολούμαστε όλοι με όλα ώστε να έχουμε πλήρη γνώση της βάσης κώδικα (με το να αλλάζουμε αντικείμενο εστίασης και όταν αυξήθηκαν τα μέλη μας, αλλάζοντας ομάδες), και έτσι έχω συμμετάσχει σε όλα τα συστήματα που αναφέρω.
+
+-- imo o titlos pou perigrafei akrivestera o,ti diavasa einai kati san:
+Analush apaithsewn kai proteinomenh arxitektonikh ulopoihshs gia pλατφόρμα λογισμικού για την επίτευξη του στόχου "μηδενικές εκπομπές CO2" pou xrhsimopoiei h etaireia Mærsk
+
+Συμφωνώ, αλλά δεν ξέρω, μπορώ να τον αλλάξω; Επειδή τον έχω δηλώσει στη γραμματεία ήδη.
+
+-- Σενάρια χρήσης
+
+Δεν έχω περιλάβει κάτι τέτοιο ως κεφάλαιο γιατί δεν μπόρεσα να το γράψω καλά. Το θέμα είναι ότι παρέχουμε πληροφορίες σε κόσμο που παίρνει αποφάσεις, αλλά δεν ξέρω πολύ καλά όλη τη ροή του πως παίρνουν την απόφαση ώστε να το περιγράψω.
+
+-- ta prohgoumena giati xreizontai se toso detail?? Pou uparxoun mazemena me eulhpto tropo ta specs tou software platform???
+
+Όταν λέμε specs εννοούμε hardware; Σε επίπεδο requests/day ή data ingestion metrics; Τώρα, σίγουρα μπορούσαν να είχαν λιγότερες λεπτομέρειες, δεν ήμουν σίγουρος τι ήταν αρκετό.
+
+-- pws sxetzontai oi stoxoi mias omadas me th dikh sou dipl erg???
+
+Οι στόχοι της ομάδας κατευθύνουν τις αρχιτεκτονικές αποφάσεις και η υλοποίηση (και σχεδιασμός/ανάλυση) τους είναι το αντικείμενο της εργασίας. 
+
+-- amesws meta to les sta ellhnika edw giati grafeis agglikh lekhs me ellhnikous xarakthres??
+Η λέξη container δεν μου αρέσει στα ελληνικά (εμπορευματοκιβώτιο) αλλά την άλλαξα παντού για να είναι συνεπής (χρησιμοποιούσα και τα δύο). Γενικά δε μπορούσα να αποφασίσω γι' αυτό ήταν διάσπαρτα και αγγλικά και ελληνικά.
+
+-- ara me apla logia pws ginetai o upologismos??
+
+προστέθηκε απλή επεξήγηση
+
+-- NRG 
+
+Το εσωτερικό όνομα της πλατφόρμας, το έβγαλα γιατί όντως δεν το όριζα πουθενά και δεν είχε και νόημα.
+
+-- giati auto apotelei antikeimeno dipl ergasia??
+
+Ίσως να παρασύρομαι λίγο απ' το μάρκετινγκ, αλλά θεωρώ ότι είναι σημαντικό επειδή είναι προτοπόρο σύστημα.
+
+-- pou orizetai ti tha pei auto?? (bunkered green fuel)
+
+Μερικά πράγματα δεν τα έχω ορίσει γιατί δεν θεώρησα ότι είναι σημαντικά αφενός, και αφετέρου δεν είμαι σίγουρος ότι θα τα ορίσω σωστά.
+
+Ελάχιστα πράγματα όπως Tank to Wake / Well to Wake δεν μπόρεσα να βρω τη σωστή ελληνική απόδοση και προτίμησα να τα αφήσω αγγλικά.
