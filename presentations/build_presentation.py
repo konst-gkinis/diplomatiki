@@ -361,7 +361,7 @@ def s_title():
     rect(s, 0, 0, SW, SH, fill=LIGHT)
     rect(s, 0, 0, Inches(0.32), SH, fill=UP_RED)
     rect(s, Inches(0.32), 0, Inches(0.07), SH, fill=UP_GOLD)
-    add_image(s, os.path.join(ASSETS, "logo-up-4color-landscape.jpg"),
+    add_image(s, os.path.join(ASSETS, "logo-up-emblem.png"),
               Inches(0.9), Inches(0.55), Inches(1.7), Inches(1.7), center_in=False)
     add_image(s, os.path.join(ASSETS, "logo-ceid.png"),
               Inches(9.55), Inches(0.95), Inches(2.85), Inches(0.95),
@@ -501,8 +501,9 @@ def s_audit():
              "space_after": 8, "line_spacing": 1.0},
             {"t": d, "size": 12.5, "color": DARK, "font": BODY, "line_spacing": 1.1},
         ])
-    rect(s, bx, yy + ch + Inches(0.22), Inches(12.2), Inches(0.6), fill=PANEL,
-         shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+    strip = rect(s, bx, yy + ch + Inches(0.22), Inches(12.2), Inches(0.6), fill=PANEL,
+                 shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+    _add_shadow(strip)
     textbox(s, bx + Inches(0.3), yy + ch + Inches(0.22), Inches(11.6), Inches(0.6), [
         [{"t": "➜  Αποτέλεσμα:  ", "size": 14, "color": UP_RED, "bold": True,
           "font": BODY},
@@ -611,8 +612,9 @@ def s_nonfunc_req():
         ])
     # bottom strip: how the design answers them
     yb = y0 + 2 * (ch + gy) + Inches(0.08)
-    rect(s, bx, yb, Inches(12.2), Inches(0.62), fill=PANEL,
-         shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+    strip = rect(s, bx, yb, Inches(12.2), Inches(0.62), fill=PANEL,
+                 shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+    _add_shadow(strip)
     textbox(s, bx + Inches(0.3), yb, Inches(11.6), Inches(0.62), [
         [{"t": "Τεχνική απάντηση:  ", "size": 13.5, "color": UP_RED, "bold": True,
           "font": BODY},
@@ -665,8 +667,9 @@ def s_pillars():
               "font": BODY}])
 
     def fnode(x, y, w, text, fill, tcol, fs=11.5):
-        rect(s, x, y, w, Inches(0.5), fill=fill,
-             shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+        nd = rect(s, x, y, w, Inches(0.5), fill=fill,
+                  shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+        _add_shadow(nd)
         textbox(s, x + Inches(0.05), y, w - Inches(0.1), Inches(0.5),
                 [{"t": text, "size": fs, "color": tcol, "bold": True, "font": BODY,
                   "align": PP_ALIGN.CENTER, "line_spacing": 1.0}],
@@ -741,8 +744,9 @@ def s_arch():
 # ══════════════════════════════════════════════════════════════════════════
 def _demo_takeaway(s, text):
     y = Inches(6.06)
-    rect(s, Inches(0.55), y, Inches(12.23), Inches(0.44), fill=PANEL,
-         shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+    bar = rect(s, Inches(0.55), y, Inches(12.23), Inches(0.44), fill=PANEL,
+               shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+    _add_shadow(bar)
     textbox(s, Inches(0.85), y, Inches(11.7), Inches(0.44),
             [[{"t": "➜  ", "size": 12.5, "color": UP_RED, "bold": True, "font": BODY},
               {"t": text, "size": 12.5, "color": DARK, "font": BODY}]],
@@ -1079,7 +1083,8 @@ def s_results_big():
         col, row = i % 3, i // 3
         x = x0 + col * (cw + gx)
         y = y0 + row * (ch + gy)
-        rect(s, x, y, cw, ch, fill=WHITE, shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+        card = rect(s, x, y, cw, ch, fill=WHITE, shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+        _add_shadow(card)
         rect(s, x, y, cw, Inches(0.12), fill=UP_GOLD)
         textbox(s, x + Inches(0.25), y + Inches(0.28), cw - Inches(0.5),
                 ch - Inches(0.4), [
@@ -1210,8 +1215,12 @@ def s_closing():
     rect(s, 0, 0, SW, SH, fill=LIGHT)
     rect(s, 0, 0, Inches(0.32), SH, fill=UP_RED)
     rect(s, Inches(0.32), 0, Inches(0.07), SH, fill=UP_GOLD)
-    add_image(s, os.path.join(ASSETS, "logo-up-4color-landscape.jpg"),
-              Inches(5.55), Inches(0.85), Inches(2.2), Inches(2.2), center_in=False)
+    # University emblem + department logo, side by side at the top
+    add_image(s, os.path.join(ASSETS, "logo-up-emblem.png"),
+              Inches(3.76), Inches(0.62), Inches(1.5), Inches(1.5), center_in=False)
+    rect(s, Inches(5.61), Inches(0.85), Pt(2), Inches(1.04), fill=UP_GOLD)
+    add_image(s, os.path.join(ASSETS, "logo-ceid.png"),
+              Inches(5.98), Inches(0.94), Inches(3.6), Inches(0.86), center_in=True)
     textbox(s, Inches(1.0), Inches(3.35), Inches(11.3), Inches(1.2), [
         {"t": "Σας ευχαριστώ", "size": 40, "color": UP_RED_D, "bold": True,
          "font": HEAD, "align": PP_ALIGN.CENTER, "space_after": 6},
@@ -1255,6 +1264,23 @@ def build_zoom_appendix():
         big.click_action.target_slide = z["src"]
 
 
+def add_card_shadows():
+    """Give every beige card/panel the same soft drop shadow as the screenshot
+    frames. The width filter skips full-width callout bars, the zebra-striped
+    lessons rows and the full-slide backgrounds."""
+    beige = (str(LIGHT), str(PANEL))
+    for sl in prs.slides:
+        for sp in sl.shapes:
+            if sp.width >= Inches(9.5):
+                continue
+            try:
+                rgb = str(sp.fill.fore_color.rgb)
+            except Exception:
+                continue
+            if rgb in beige:
+                _add_shadow(sp)
+
+
 # ── build ─────────────────────────────────────────────────────────────────
 s_title()
 s_problem()
@@ -1276,6 +1302,7 @@ s_lessons()
 s_future()
 s_closing()
 build_zoom_appendix()
+add_card_shadows()
 
 
 # ── Speaker notes (Greek), budgeted to ~19 min + buffer for a 20΄ defense ──
