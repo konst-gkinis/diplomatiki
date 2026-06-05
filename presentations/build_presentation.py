@@ -195,6 +195,21 @@ def _set_radius(shape, w, h, radius_in):
         pass
 
 
+def _add_shadow(shape, blur=Pt(3), dist=Pt(2), alpha=34000):
+    """Attach an explicit soft outer drop shadow (renders in PowerPoint and
+    Google Slides, not only in the LibreOffice PDF export)."""
+    spPr = shape._element.spPr
+    for el in spPr.findall(qn("a:effectLst")):
+        spPr.remove(el)
+    eff = spPr.makeelement(qn("a:effectLst"), {})
+    shdw = eff.makeelement(qn("a:outerShdw"), {
+        "blurRad": str(int(blur)), "dist": str(int(dist)),
+        "dir": "5400000", "rotWithShape": "0"})
+    clr = shdw.makeelement(qn("a:srgbClr"), {"val": "000000"})
+    clr.append(clr.makeelement(qn("a:alpha"), {"val": str(alpha)}))
+    shdw.append(clr); eff.append(shdw); spPr.append(eff)
+
+
 def add_screenshot(s, path, x, y, w, h, caption=None, zoom=False):
     """Real platform screenshot in a framed 'window' with a burgundy title bar.
 
@@ -207,9 +222,10 @@ def add_screenshot(s, path, x, y, w, h, caption=None, zoom=False):
     """
     bar_h = Inches(0.34) if caption else Inches(0)
     pad = Inches(0.1)
-    # 1) white background card, gently rounded
+    # 1) white background card, gently rounded, with a soft drop shadow
     card = rect(s, x, y, w, h, fill=WHITE, shape=MSO_SHAPE.ROUNDED_RECTANGLE)
     _set_radius(card, w, h, 0.12)
+    _add_shadow(card)
     # 2) the screenshot, inset and centred, behind the frame outline
     avail_w = w - 2 * pad
     avail_h = h - bar_h - 2 * pad
@@ -386,7 +402,7 @@ def s_title():
          "font": BODY},
     ])
     textbox(s, Inches(0.9), Inches(6.85), Inches(11.6), Inches(0.4), [
-        {"t": "Πάτρα, Μάιος 2026", "size": 12, "color": UP_RED, "bold": True,
+        {"t": "Πάτρα, Ιούνιος 2026", "size": 12, "color": UP_RED, "bold": True,
          "font": BODY}])
 
 
@@ -994,24 +1010,24 @@ def s_contributions():
     header(s, "Η συμβολή μου", "Προσωπική συμβολή στο έργο")
     bx, by, bw, bh = body_area()
     textbox(s, bx, by, Inches(12.2), Inches(0.5), [
-        {"t": "Ως ιδρυτικό μέλος και τεχνικός επικεφαλής της ομάδας, η συμβολή μου "
-              "εκτείνεται σε τρεις άξονες:", "size": 14.5, "color": DARK,
+        {"t": "Ως ιδρυτικό μέλος και τεχνικός επικεφαλής της ομάδας, συνεισέφερα "
+              "καθοριστικά σε τρεις άξονες:", "size": 14.5, "color": DARK,
          "font": BODY}])
     cols = [
         ("Τεχνική θεμελίωση", [
-            "Εκκίνηση του codebase και στήσιμο του CI/CD pipeline",
-            "Tooling με Nix + shell: idempotent περιβάλλοντα, onboarding σε <30΄ χωρίς παρέμβαση",
-            "Βελτιστοποίηση ερωτημάτων: indexing (GIN / trigrams), materialized views",
+            "Έθεσα τα θεμέλια του κώδικα και του pipeline CI/CD από την αρχή",
+            "Αυτοματοποίησα το στήσιμο του περιβάλλοντος (Nix, shell): onboarding σε <30 λεπτά, χωρίς χειροκίνητα βήματα",
+            "Επιτάχυνα κρίσιμα ερωτήματα με κατάλληλο indexing (GIN, trigrams) και materialized views",
         ]),
         ("Ηγεσία & ομάδα", [
-            "Καθοδήγηση της ομάδας και αναπλήρωση του manager όταν χρειάστηκε",
-            "Σχεδίαση της διαδικασίας προσλήψεων & διεξαγωγή των περισσότερων συνεντεύξεων",
-            "Workshops & coding dojos: event sourcing, λειτουργικός προγραμματισμός, debugging σε Elixir",
+            "Καθοδήγησα την ομάδα και αναπλήρωσα τον manager όποτε χρειάστηκε",
+            "Σχεδίασα τη διαδικασία προσλήψεων και διεξήγαγα τις περισσότερες συνεντεύξεις",
+            "Μετέδωσα τεχνογνωσία μέσα από workshops και coding dojos (event sourcing, λειτουργικός προγραμματισμός, debugging σε Elixir)",
         ]),
         ("Παράδοση & ποιότητα", [
-            "Μείωση χρόνων παράδοσης: απλούστευση λύσεων, προτεραιότητα στις βασικές απαιτήσεις",
-            "Σαφέστερα user stories: acceptance criteria, preconditions, παραδείγματα για edge cases",
-            "Ηγεσία υλοποίησης UI του Maersk Design System & συνεργασία με designers",
+            "Μείωσα τους χρόνους παράδοσης απλοποιώντας λύσεις και ιεραρχώντας τις ουσιώδεις απαιτήσεις",
+            "Ενίσχυσα τη σαφήνεια των user stories: κριτήρια αποδοχής, προϋποθέσεις, παραδείγματα για ακραίες περιπτώσεις",
+            "Ηγήθηκα της υλοποίησης του UI (Maersk Design System), σε στενή συνεργασία με τους designers",
         ]),
     ]
     cw, ch = Inches(3.92), Inches(4.55)
@@ -1207,7 +1223,7 @@ def s_closing():
          "font": HEAD, "align": PP_ALIGN.CENTER, "space_after": 4},
         {"t": "Επιβλέπων: Χρήστος Μπούρας, Καθηγητής", "size": 13, "color": GRAY,
          "font": BODY, "align": PP_ALIGN.CENTER, "space_after": 2},
-        {"t": "Πανεπιστήμιο Πατρών · Τμήμα Μηχανικών Η/Υ & Πληροφορικής · Μάιος 2026",
+        {"t": "Πανεπιστήμιο Πατρών · Τμήμα Μηχανικών Η/Υ & Πληροφορικής · Ιούνιος 2026",
          "size": 12, "color": GRAY, "font": BODY, "align": PP_ALIGN.CENTER}])
 
 
